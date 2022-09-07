@@ -8,6 +8,7 @@ public class HomeController {
 
     @GetMapping("/")  //도메인 들어가자마자 나오는 페이지 "/"로 표현
     public String home(){
+
         return "home";
     }
 }
